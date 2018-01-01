@@ -27,13 +27,13 @@ For more information, see http://archive.ics.uci.edu/ml/datasets/Human+Activity+
 
 ### Cleaning Data
 After downloading the `UCI HAR Dataset` Folder and reading the files 'features.txt', 'activity_labels.txt', 'train/X_train.txt', 'train/y_train.txt', 'test/X_test.txt', and 'test/y_test.txt':
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement.
+1. Merge the training and the test sets to create one data set called "data"
+2. Extract only the measurements on the mean and standard deviation for each measurement into "data_subset."
 3. Use descriptive activity names to name the activities in the data set
-4. Appropriately label the data set with descriptive variable names.
-5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+4. Appropriately label the data set with descriptive variable names, including expanding abbreviations and removing extra symbols and repeated words.
+5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject called "data_averages."
 
-### Variables in Output
+### Variables in Output tidy_data.txt
 - subject: identifier of the subject performing the activity
 - activity: activity label, where
   - 1 indicates WALKING
