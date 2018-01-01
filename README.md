@@ -2,10 +2,10 @@
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
 In this repo, you will find
-1. README.md: Overview of the project
-2. run_analysis.R: The script to produce the tidy data set
-3. tidy_data.txt: The tidy data set outputted from run_analysis.R
-4. CodeBook.md: A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+1. `README.md`: Overview of the project and its components
+2. `run_analysis.R`: The script to produce the tidy data set
+3. `tidy_data.txt`: The tidy data set outputted from run_analysis.R
+4. `CodeBook.md`: A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
 
 ## Instructions
 ### Review criteria
